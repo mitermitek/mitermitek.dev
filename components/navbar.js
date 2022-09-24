@@ -9,8 +9,12 @@ export default function Navbar() {
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <Link href="/">
           <a className="flex items-center">
-            <span className="self-center text-xl font-semibold whitespace-nowrap">
-              👋 Kevin MITERMITE
+            <span className="mr-2">👋</span>
+            <span className="self-center text-xl font-semibold whitespace-nowrap hidden sm:block">
+              Kevin MITERMITE.
+            </span>
+            <span className="self-center text-xl font-semibold whitespace-nowrap sm:hidden">
+              KM.
             </span>
           </a>
         </Link>
