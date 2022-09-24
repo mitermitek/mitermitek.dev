@@ -6,12 +6,12 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white px-2 sm:px-4 py-2.5 mb-5 md:mb-10">
-      <div className="container flex flex-wrap justify-between items-center mx-auto">
+      <div className="container max-w-6xl flex flex-wrap justify-between items-center mx-auto">
         <Link href="/">
           <a className="flex items-center">
             <span className="mr-2">👋</span>
             <span className="self-center text-xl font-semibold whitespace-nowrap hidden sm:block">
-              Kevin MITERMITE.
+              Kevin Mitermite.
             </span>
             <span className="self-center text-xl font-semibold whitespace-nowrap sm:hidden">
               KM.
