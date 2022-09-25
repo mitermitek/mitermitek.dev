@@ -1,5 +1,7 @@
 import Image from "next/image";
 import kevin from "../public/images/kevin.jpeg";
+import github from "../public/images/github.png";
+import linkedin from "../public/images/linkedin.png";
 
 export default function Home() {
   return (
@@ -24,6 +26,38 @@ export default function Home() {
             </a>
             .
           </p>
+          <div className="flex flex-row justify-center md:justify-start items-center mt-5">
+            <div className="mr-5">
+              <a
+                href="https://github.com/mitermitek"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  alt="Github"
+                  src={github}
+                  quality={100}
+                  width={40}
+                  height={40}
+                />
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.linkedin.com/in/mitermitek/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  alt="LinkedIn"
+                  src={linkedin}
+                  quality={100}
+                  width={50}
+                  height={40}
+                />
+              </a>
+            </div>
+          </div>
         </div>
         <div className="order-1 md:order-2 mb-10 md:mb-0">
           <div className="w-2/3 mx-auto">
