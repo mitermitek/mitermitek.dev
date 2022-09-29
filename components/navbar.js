@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
-    <nav className="bg-white px-2 sm:px-4 py-2.5 mb-5 md:mb-10">
+    <nav className="bg-white px-2 sm:px-4 py-2.5 mb-10 md:mb-20">
       <div className="container max-w-6xl flex flex-wrap justify-between items-center mx-auto">
         <Link href="/">
           <a className="flex items-center">
