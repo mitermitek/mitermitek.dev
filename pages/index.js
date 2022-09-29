@@ -2,6 +2,7 @@ import Image from "next/image";
 import kevin from "../public/images/kevin.jpeg";
 import github from "../public/images/github.png";
 import linkedin from "../public/images/linkedin.png";
+import Projects from "../components/projects";
 
 export default function Home() {
   return (
@@ -71,6 +72,9 @@ export default function Home() {
             />
           </div>
         </div>
+      </div>
+      <div className="my-32">
+        <Projects />
       </div>
     </>
   );
