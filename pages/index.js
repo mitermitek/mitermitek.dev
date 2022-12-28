@@ -1,8 +1,8 @@
 import Image from "next/image";
-import kevin from "../public/images/kevin.jpeg";
-import github from "../public/images/github.png";
-import linkedin from "../public/images/linkedin.png";
 import Projects from "../components/projects";
+import github from "../public/images/github.png";
+import kevin from "../public/images/kevin.jpeg";
+import linkedin from "../public/images/linkedin.png";
 
 export default function Home() {
   return (
@@ -66,7 +66,6 @@ export default function Home() {
               alt="Kevin Mitermite"
               src={kevin}
               layout="responsive"
-              quality={100}
               priority={true}
               className="rounded-full"
             />
